@@ -87,7 +87,7 @@ $(document).ready(function(){
 				$.ajax({
 					'async': false,
 					'global': false,
-					'url': "http://api.openweathermap.org/data/2.5/weather?zip="+zipcode+",IN&APPID=03ff4754e1cc27ff1e2c4f59d1408f68" ,
+					'url': "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?zip="+zipcode+",IN&APPID=03ff4754e1cc27ff1e2c4f59d1408f68" ,
 					'dataType': "json",
 					'success': function (data) {
 						json = data;
